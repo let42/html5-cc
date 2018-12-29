@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <title>Selection Form</title>
+        <script src="select.js"></script>
+    </head>
+    <body>
+        <header>
+            <hgroup>
+                <h1 style="text-align: center">Selection Form</h1>
+            </hgroup>
+        </header>
+        <nav>
+        </nav>
+        <section style="text-align: justify">
+            <section id="format">
+                <form name="submitting"
+                action="selectForm.html" method="post">
+                    <p><label>Nome:
+                        <input name="nome" type="text"
+                        placeholder="Inserisci qui il tuo nome" />
+                    </label></p>
+                    <p><label>Cognome:
+                        <input name="surname" type="text"
+                        placeholder="Inserisci qui il tuo cognome" />
+                    </label></p>
+                    <p><label>Numero di Telefono:
+                        <input name="numTel" type="text"
+                        placeholder="Inserisci qui il numero di Telefono" />
+                    </label></p>
+                    <p><label>Note:
+                        <textarea name="note" rows="2" columns="80"
+                        placeholder="Inserisci qui le note">
+                        </textarea>
+                    </label></p>
+                    <p><label>Studente?
+                        <input name="studente" type="checkbox" />
+                    </label></p>
+                    <p><label>
+                        Età:
+                        <select name="selector">
+                            <option selected="selected">
+                                Meno di 18 anni
+                            </option>
+                            <option>Tra i 18 e i 24 anni</option>
+                            <option>Tra i 24 e i 30 anni</option>
+                            <option>Più di 30 anni</option>
+                        </select>
+                    </label></p>
+                    <p>
+                        <button name="reset" type="reset">Reset</button>
+                        &nbsp;
+                        <button name="submit" type="submit">Invia</button>
+                        &nbsp;
+                        <button name="print" type="button"
+                        onclick="printMe(nome.value, surname.value,
+                        numTel.value, note.value, studente.value,
+                        selector.value)">
+                        Stampa</button>
+                    </p>
+                </form>
+            </section>
+            <section id="printarea" style="color: brown;
+            background-color: yellow;
+            text-align: center">
+            </section>
+        </section>
+    </body>
+</html>
