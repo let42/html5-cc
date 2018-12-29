@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Test Submit</title>
+    </head>
+    <body>
+        <header>
+            <hgroup>
+                <h1 style="text-align: center">Test Submit Form</h1>
+            </hgroup>
+        </header>
+        <nav>
+        </nav>
+        <section style="text-align: justify">
+            <section id="format">
+                <form name="submitting"
+                action="submitForm.html" method="post">
+                    <p><label>Nome:
+                        <input name="name" type="text"
+                        placeholder="Inserisci qui il tuo nome" />
+                    </label></p>
+                    <p><label>Cognome:
+                        <input name="surname" type="text"
+                        placeholder="Inserisci qui il tuo cognome" />
+                    </label></p>
+                    <p><label>Numero di Telefono:
+                        <input name="numTel" type="text"
+                        placeholder="Inserisci qui il numero di Telefono" />
+                    </label></p>
+                    <p><label>Note:
+                        <textarea name="note" rows="2" columns="80"
+                        placeholder="Inserisci qui le note">
+                        </textarea>
+                    </label></p>
+                    <p>
+                        <button name="submit" type="submit">Invia</button>
+                        &nbsp;
+                        <button name="reset" type="reset">Reset</button>
+                    </p>
+                </form>
+            </section>
+            <section id="printarea" style="color: brown;
+            background-color: yellow">
+            </section>
+        </section>
+    </body>
+</html>
