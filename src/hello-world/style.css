@@ -1,0 +1,10 @@
+.tfoot{
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  font-weight: bold;
+}
+.tdeta{
+  text-align: right;
+  font-weight: normal;
+  text-redering: optimizeLegibility;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Terza Versione del Form</title>
+    <script>
+      function printMe(nome, cognome, numTel, note){
+        var strinToPrint="Nome: "+ nome + "<br />" + "Cognome: " + cognome
+        + "<br />" + " Numero di Telefono: " + numTel + "<br />" +
+        "Note: " + note + "<br />";
+        document.getElementById('printarea').innerHTML= strinToPrint;
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div style="text-align: center">
+        <h1>La terza versione del Form</h1>
+      </div>
+      <div style="text-align: justify; color: orange">
+        <form name="second" action="terzaForm.html" method="post">
+          <p><label>Nome:
+            <input name="nome" type="text"
+            placeholder="Inserisci il tuo nome" />
+          </label></p>
+          <p><label>Cognome:
+            <input name="cognome" type="text"
+            placeholder="Inserisci il tuo cognome" />
+          </label></p>
+          <p><label>Numero di Telefono:
+            <input name="numTel" type="text"
+            placeholder="Inserisci il tuo numero" />
+          </label></p>
+          <p><label>Note:
+            <textarea name="note" rows="4" cols="80">
+              Inserisci qui le note</textarea>
+            </label></p>
+          <p><button type="button"
+            onclick="printMe(nome.value, cognome.value, numTel.value,
+             note.value)">
+            Cliccami per stampare</button>
+        </form>
+      </div>
+      <div id="printarea" style="color: green">
+      </div>
+  </body>
+</html>

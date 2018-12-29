@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Il mio primo form</title>
+  </head>
+  <body>
+    <header>
+    </header>
+    <nav>
+    </nav>
+    <section>
+      <div style="text-align: center">
+        <h1>Il Mio primo form</h1>
+      </div>
+      <br />
+      <div style="text-align: justify">
+        <h1 style="color: orange">Testo da inserire</h1>
+        <form name="dati" action="index.html" method="post">
+          <input name="testo" type="text" placeholder="Inserisci qui il tuo testo" />
+          <button type="button" onclick="
+          document.getElementById('print-area').innerHTML= testo.value">
+          Cliccami per stampare il testo</button>
+        </form>
+      </div>
+      <div style="color: blue, text-align: justify">
+        <p id="print-area"></p>
+      </div>
+    </section>
+  </body>
+</html>

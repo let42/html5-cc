@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <title>Quarta Versione del Form</title>
+    <script src="myscript.js"></script>
+  </head>
+  <body>
+    <header>
+      <div style="text-align: center">
+        <h1>La quarta versione del Form</h1>
+      </div>
+      <div style="text-align: justify; color: orange">
+        <form name="second" action="terzaForm.html" method="post">
+          <p><label>Nome:
+            <input name="nome" type="text"
+            placeholder="Inserisci il tuo nome" />
+          </label></p>
+          <p><label>Cognome:
+            <input name="cognome" type="text"
+            placeholder="Inserisci il tuo cognome" />
+          </label></p>
+          <p><label>Numero di Telefono:
+            <input name="numTel" type="text"
+            placeholder="Inserisci il tuo numero" />
+          </label></p>
+          <p><label>Note:
+            <textarea name="note" rows="4" cols="20">
+              Inserisci qui le note</textarea>
+            </label></p>
+          <p><label>Password:
+            <input name="passwd" type="password"
+            placeholder="Inserici la tua password" />
+          </label></p>
+          <p><button type="button"
+            onclick="printMe(nome.value, cognome.value, numTel.value,
+             note.value, passwd.value)">
+            Cliccami per stampare</button>
+        </form>
+      </div>
+      <div id="printarea" style="color: green">
+      </div>
+  </body>
+</html>
