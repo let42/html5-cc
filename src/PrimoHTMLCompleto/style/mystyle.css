@@ -1,0 +1,29 @@
+html
+{
+	margin:0px;
+	padding:0px;
+	font-size:100%;
+}
+
+body
+{
+	margin: 20px auto;
+	width: 990px;
+	font-size: 100.01%;
+	text-align: left;
+	background-image:url("../img/index.jpeg");
+	color: #FFFFFF;
+	font-family: Anonymous, Arial, 'Droid Sans', 'Noto Sans', Verdana;
+	line-height: 1.35em;
+}
+
+h1, h2, h3, h4, h5, h6{ color:#FF0000; }
+
+p
+{
+	font-size: 13px;
+	margin:10px 0px 15px;
+	text-align: justify;
+}
+
+.pclass{color: #0099FF;}
