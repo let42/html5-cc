@@ -1,0 +1,15 @@
+p.contenuto{
+	font-family: Menlo, Regular;
+	font-weight: bold;
+	text-align: justify;
+	text-indent: 12px;
+	background-color: yellow;
+}
+p.scont{
+	font-family: Menlo, Monospace;
+	font-style: italic;
+	text-align: center;
+	text-indent: 12px;
+	color: yellow;
+	background-color: blue;
+}
