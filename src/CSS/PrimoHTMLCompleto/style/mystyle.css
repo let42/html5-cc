@@ -27,3 +27,11 @@ p
 }
 
 .pclass{color: #0099FF;}
+
+.title
+{
+	display: block;
+	height: 80px;
+	padding: 20px 0px 20px;
+	margin: 0px 0px 40px 0px;
+}
