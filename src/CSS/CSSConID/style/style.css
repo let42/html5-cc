@@ -1,0 +1,81 @@
+header#title
+{
+	
+	display: block;
+	height: 80px;
+	padding:20px 0 0;
+	margin: 0 0 40px 0;
+	color: #993345;
+	text-align: center;
+	font-weight: bold;
+}
+header#title h1
+{
+	padding: 0 0 20px 20px;
+	color: #FF0000;	
+}
+header#title h2
+{
+	font-style: italic;
+	padding: 0 0 20px 100px;
+}
+section#present
+{
+	display: block;
+	color: #254933;
+	font-size: 12px;
+	font-family: Menlo, Arial, Verdana, 'Droid Sans Mono';
+	padding:20px 0 20px;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333),to(#666));
+	background-image: -moz-gradient(linear, 0% 0%, 0% 100%, from(#333),to(#666));
+	width: 700px;
+float:left;
+}
+article#first
+{
+	padding: 10px;
+	display: block;
+	font-size: 11px;
+	text-align: left;
+	background:#eee;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#09F),to(#03F));
+	background-image: -moz-gradient(linear, 0% 0%, 0% 100%, from(#09F),to(#03F));
+	color: #000000;
+	margin: 0 10px 10px 10px;
+}
+a:link, a:visited{color: #0099FF;text-decoration:underline;} 
+a:hover, a:active{text-decoration:none;}
+nav
+{
+	display:block;
+	height: 35px;
+	margin: 0 0 5px 0;
+}
+nav ul
+{
+	list-style: none;
+	height: 35px;
+	line-height: 35px;
+	color: #0033FF;
+}
+nav ul li
+{
+	display:inline;
+	
+}
+nav ul li a
+{
+	padding: 0 25px;
+	font-size: 14px;
+	display: block;
+	float: left;
+}
+aside
+{
+	display: block;
+	width: 276px;
+	float: right;
+	padding: 0px 0 20px;
+	margin: 0 0 0 10px;
+}
+
